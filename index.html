@@ -2,16 +2,37 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Chúc Mừng 20/10 - Lâm Thanh Vy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="container"></div>
     <div class="message-overlay">
-        <h1 class="main-title">Chúc Mừng Ngày Phụ Nữ Việt Nam 20/10</h1>
+        <h1 class="main-title">Anh chúc em 20/10 vui vẻ nhaaa tặng em một vườn hoa🌹</h1>
         <h2 class="name">Lâm Thanh Vy</h2>
     </div>
+    
+    <!-- Floating Button -->
+    <button id="floatingBtn" class="floating-button">💕</button>
+    
+    <!-- Message Modal -->
+    <div id="messageModal" class="message-modal">
+        <div class="modal-content">
+            <h3>Vy nhỏ giỏi thiệt click vào được lời nhắn đặc biệt nè 🎇</h3>
+            <p>Nói là tặng em một vườn hoa nhưng trái tim to bự toàn hình em thì vườn hoa 
+                là ai thì em cũng biết rồi đóa</p>
+            <button id="closeModal" class="close-btn">Đóng</button>
+        </div>
+    </div>
+    
+    <!-- Audio Element (controls hidden via CSS; autoplay optimized) -->
+    <audio id="backgroundMusic" loop preload="auto" playsinline>
+        <source src="audio/background.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Signature -->
+    <div class="signature">From Lê Thành Phát aka Cựu bồ cũ</div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="script.js"></script>
